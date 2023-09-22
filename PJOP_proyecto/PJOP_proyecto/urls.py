@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from PJOP_app1 import views as v1
+from PJOP_app2 import views as v2
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Vista1/',v1.vista1),
-    path('Vista2/',v1.vista2),
+    path('Vista3/',v2.vista1),
+    path('Vista4/',v2.vista2),
 ]
